@@ -1,0 +1,15 @@
+.feedback__btn {
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.feedback__btn:hover {
+  background-color: rgb(152, 185, 247);
+}
