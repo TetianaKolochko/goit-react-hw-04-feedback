@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import React from 'react';
 import css from './FeedbackOptions.module.css';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
@@ -8,7 +7,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
       className={css.feedback__btn}
       key={key}
       type="button"
-      onClick={() => onLeaveFeedback(key)}
+      onClick={onLeaveFeedback}
     >
       {key}
     </button>
